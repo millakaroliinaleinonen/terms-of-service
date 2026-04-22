@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms &amp; Conditions — Happy Cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #fdf8f3;
+      --surface: #ffffff;
+      --accent: #e07b4a;
+      --accent-soft: #fdf0e8;
+      --text: #1e1a17;
+      --muted: #7a6f67;
+      --border: #ece5dd;
+      --radius: 12px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 2.5rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-icon { font-size: 2rem; line-height: 1; }
+
+    .logo-name {
+      font-family: 'Fraunces', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta { color: var(--muted); font-size: 0.9rem; }
+
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1rem;
+      background: var(--accent-soft);
+      border: 1px solid #f0d0be;
+      border-radius: 99px;
+      padding: 0.35rem 0.85rem;
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.15s;
+    }
+    .lang-switch:hover { background: #fae0cf; }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 0.85rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    ul:last-child { margin-bottom: 0; }
+    li { margin-bottom: 0.3rem; }
+
+    .highlight {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.93rem;
+    }
+    .highlight:last-child { margin-bottom: 0; }
+
+    .warning {
+      background: #fff8f0;
+      border: 1px solid #f0d0be;
+      border-radius: var(--radius);
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.93rem;
+    }
+    .warning:last-child { margin-bottom: 0; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 500; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">
+      <span class="logo-icon">🐱</span>
+      <span class="logo-name">Happy Cat</span>
+    </div>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="meta">Effective date: Apr 22, 2026 &nbsp;·&nbsp; Last updated: Apr 22, 2026</p>
+    <a class="lang-switch" href="terms-fi.html">🇫🇮 Lue suomeksi</a>
+  </header>
+
+  <section>
+    <h2><span class="num">1</span> Acceptance of Terms</h2>
+    <p>By downloading, installing, or using the Happy Cat application ("the app"), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use the app.</p>
+    <p>These terms apply to all users of Happy Cat, including residents of the European Economic Area. Use of the app is also subject to our <a href="privacy-en.html">Privacy Policy</a>, which is incorporated into these terms by reference.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Marketing Communications</h2>
+    <p>Subscribing to marketing messages is entirely voluntary and requires your explicit opt-in during registration. By checking the marketing consent box, you agree to receive periodic tips, feature updates, and other product-related communications from us.</p>
+    <p>You can withdraw your consent and opt out at any time through the app's profile settings, with no effect on your ability to use the app. We will process your marketing preferences in accordance with our <a href="privacy-en.html">Privacy Policy</a> and applicable European data protection law.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Push Notifications</h2>
+    <p>Happy Cat uses push notifications to remind you to play with your cat at the times you have set. The reminder functionality is a core feature of the app, and the app's effectiveness as a habit-building tool depends on notifications being enabled.</p>
+    <p>You control notification permissions through your device settings (iOS Settings → Notifications → Happy Cat). You can disable notifications at any time, though this will prevent the app from sending play reminders and goal achievement alerts.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Data Ownership &amp; Usage Rights</h2>
+    <p>You retain full ownership of the personal data associated with your account, including your cat's profile information and your play session history. We do not sell your personal data to third parties.</p>
+    <p>By using Happy Cat, you grant us a non-exclusive, royalty-free, worldwide right to use, store, and process <strong>anonymised and aggregated</strong> pet activity data — such as cat age, sex, and play session durations — for statistical and product development purposes. This data cannot be used to identify you or your cat individually.</p>
+    <p>Upon account deletion, all personal identifying information is permanently removed within 30 days. Anonymised aggregate data, which contains no information linking back to you, may be retained to maintain the accuracy of our overall usage statistics. For full details see our <a href="privacy-en.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Limitation of Liability</h2>
+    <p>Happy Cat is provided <strong>"as is"</strong> for informational and habit-tracking purposes only. We make no warranties, express or implied, regarding the app's fitness for any particular purpose.</p>
+    <div class="warning">
+      <strong>⚠️ Pet safety notice:</strong> The Activity Tips provided within the app are general suggestions intended for healthy adult cats. They may not be suitable for every individual animal. You are solely responsible for the safety and well-being of your pet during all play sessions.
+    </div>
+    <p>We shall not be liable for any direct, indirect, incidental, or consequential injury, illness, or death of any animal or person resulting from the use of this app or the implementation of any tips or suggestions shared within it.</p>
+    <p>Always consult a qualified veterinarian before starting new activity routines, particularly if your cat has existing health conditions, is elderly, or is recovering from illness or injury.</p>
+    <p>To the maximum extent permitted by applicable law, our total liability to you for any claim arising from your use of the app shall not exceed the amount you paid for the app in the twelve months preceding the claim.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Changes to These Terms</h2>
+    <p>We may update these Terms and Conditions from time to time. When we make material changes, we will update the "Last updated" date at the top of this page and notify you through the app. Continued use of the app after the effective date constitutes acceptance of the updated terms.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> Governing Law</h2>
+    <p>These terms are governed by the laws of Finland. Any disputes arising from or in connection with these terms shall be subject to the jurisdiction of the Finnish courts, without prejudice to your rights as a consumer under applicable European Union law.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span> Contact</h2>
+    <div class="highlight">
+      <strong><!-- YOUR NAME / COMPANY NAME --></strong><br />
+      Email: <a href="mailto:milla.karoliina.leinonen@gmail.com">milla.karoliina.leinonen@gmail.com</a>
+    </div>
+    <p>Also see our <a href="privacy-en.html">Privacy Policy</a> for information on how we handle your data.</p>
+  </section>
+
+  <footer>
+    <p>Happy Cat &nbsp;·&nbsp; <a href="terms-fi.html">Suomeksi</a> &nbsp;·&nbsp; <a href="privacy-en.html">Privacy Policy</a> &nbsp;·&nbsp; Bundle ID: com.happycat.app</p>
+  </footer>
+
+</div>
+</body>
+</html>
