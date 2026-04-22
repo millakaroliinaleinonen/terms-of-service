@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Käyttöehdot — Happy Cat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #fdf8f3;
+      --surface: #ffffff;
+      --accent: #e07b4a;
+      --accent-soft: #fdf0e8;
+      --text: #1e1a17;
+      --muted: #7a6f67;
+      --border: #ece5dd;
+      --radius: 12px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 2.5rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-icon { font-size: 2rem; line-height: 1; }
+
+    .logo-name {
+      font-family: 'Fraunces', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta { color: var(--muted); font-size: 0.9rem; }
+
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 1rem;
+      background: var(--accent-soft);
+      border: 1px solid #f0d0be;
+      border-radius: 99px;
+      padding: 0.35rem 0.85rem;
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.15s;
+    }
+    .lang-switch:hover { background: #fae0cf; }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.6rem;
+      height: 1.6rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 0.85rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul { padding-left: 1.4rem; margin-bottom: 0.85rem; }
+    ul:last-child { margin-bottom: 0; }
+    li { margin-bottom: 0.3rem; }
+
+    .highlight {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.93rem;
+    }
+    .highlight:last-child { margin-bottom: 0; }
+
+    .warning {
+      background: #fff8f0;
+      border: 1px solid #f0d0be;
+      border-radius: var(--radius);
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.93rem;
+    }
+    .warning:last-child { margin-bottom: 0; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 500; }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">
+      <span class="logo-icon">🐱</span>
+      <span class="logo-name">Happy Cat</span>
+    </div>
+    <h1>Käyttöehdot</h1>
+    <p class="meta">Voimassa alkaen: 22.4.2026 &nbsp;·&nbsp; Päivitetty viimeksi: 22.4.2026</p>
+    <a class="lang-switch" href="terms-en.html">🇬🇧 Read in English</a>
+  </header>
+
+  <section>
+    <h2><span class="num">1</span> Ehtojen hyväksyminen</h2>
+    <p>Lataamalla, asentamalla tai käyttämällä Happy Cat -sovellusta ("sovellus") hyväksyt nämä käyttöehdot. Jos et hyväksy näitä ehtoja, älä käytä sovellusta.</p>
+    <p>Nämä ehdot koskevat kaikkia Happy Catin käyttäjiä, mukaan lukien Euroopan talousalueen asukkaita. Sovelluksen käyttöön sovelletaan myös <a href="privacy-fi.html">tietosuojaselostettamme</a>, joka sisällytetään näihin ehtoihin viittauksen kautta.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Markkinointiviestintä</h2>
+    <p>Markkinointiviestien tilaaminen on täysin vapaaehtoista ja edellyttää nimenomaista suostumustasi rekisteröitymisen yhteydessä. Valitsemalla markkinointiruudun hyväksyt, että voimme lähettää sinulle ajoittain vinkkejä, tietoja uusista ominaisuuksista ja muita tuotteeseen liittyviä viestejä.</p>
+    <p>Voit peruuttaa suostumuksesi ja lopettaa markkinointiviestien vastaanottamisen milloin tahansa sovelluksen profiiliasetuksista. Tämä ei vaikuta mahdollisuuteesi käyttää sovellusta. Käsittelemme markkinointivalintojasi <a href="privacy-fi.html">tietosuojaselosteen</a> ja sovellettavan eurooppalaisen tietosuojalainsäädännön mukaisesti.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Push-ilmoitukset</h2>
+    <p>Happy Cat käyttää push-ilmoituksia muistuttaakseen sinua leikkimisestä kissasi kanssa asettamiesi aikojen mukaisesti. Muistutustoiminto on sovelluksen keskeinen ominaisuus, ja sen tehokkuus tottumuksen rakentamisessa perustuu ilmoitusten käyttöön.</p>
+    <p>Hallitset ilmoitusoikeuksia laitteesi asetuksissa (iOS-asetukset → Ilmoitukset → Happy Cat). Voit poistaa ilmoitukset käytöstä milloin tahansa, mutta tämä estää sovellusta lähettämästä leikkimuistutuksia ja tavoitteen saavuttamisilmoituksia.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Omistusoikeus ja tietojen käyttöoikeudet</h2>
+    <p>Säilytät täyden omistusoikeuden tiliisi liittyviin henkilötietoihin, mukaan lukien kissasi profiilitiedot ja leikkihistoriasi. Emme myy henkilötietojasi kolmansille osapuolille.</p>
+    <p>Käyttämällä Happy Cat -sovellusta annat meille maksuttoman, ei-yksinoikeudellisen ja maailmanlaajuisen oikeuden käyttää, tallentaa ja käsitellä <strong>anonymisoitua ja koostettua</strong> lemmikkidataa — kuten kissan ikä, sukupuoli ja leikki-istuntojen kestot — tilastollisiin ja tuotekehitystarkoituksiin. Tätä dataa ei voida käyttää sinun tai kissasi yksilöimiseen.</p>
+    <p>Tilin poistamisen yhteydessä kaikki henkilökohtaiset tunnistetiedot poistetaan pysyvästi 30 päivän kuluessa. Anonymisoitu koottu data, joka ei sisällä sinuun yhdistettävissä olevia tietoja, voidaan säilyttää sovelluksen kokonaiskäyttötilastojen tarkkuuden ylläpitämiseksi. Lisätietoja löydät <a href="privacy-fi.html">tietosuojaselosteestamme</a>.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Vastuunrajoitus</h2>
+    <p>Happy Cat tarjotaan <strong>"sellaisena kuin se on"</strong> ainoastaan tiedon seurantaa ja tottumuksen rakentamista varten. Emme anna mitään nimenomaisia tai epäsuoria takuita sovelluksen soveltuvuudesta mihinkään tiettyyn tarkoitukseen.</p>
+    <div class="warning">
+      <strong>⚠️ Lemmikkisi turvallisuus:</strong> Sovelluksen Aktiviteettivinkit ovat yleisiä ehdotuksia, jotka on tarkoitettu terveille aikuisille kissoille. Ne eivät välttämättä sovellu kaikille yksilöllisille eläimille. Olet yksin vastuussa lemmikkisi turvallisuudesta ja hyvinvoinnista kaikkien leikkihetkien aikana.
+    </div>
+    <p>Emme ole vastuussa mistään välittömistä, välillisistä, satunnaisista tai seurannaisista vammoista, sairauksista tai kuolemantapauksista, jotka kohdistuvat eläimiin tai ihmisiin sovelluksen käytön tai siellä jaettujen vinkkien tai ehdotusten seurauksena.</p>
+    <p>Konsultoi aina pätevää eläinlääkäriä ennen uusien aktiviteettien aloittamista, erityisesti jos kissallasi on olemassa olevia terveysongelmia, se on iäkäs tai toipuu sairaudesta tai loukkaantumisesta.</p>
+    <p>Sovellettavan lain sallimassa laajuudessa kokonaisvastuumme sinulle kaikista sovelluksen käytöstä johtuvista vaatimuksista ei ylitä summaa, jonka olet maksanut sovelluksesta vaatimusta edeltävien kahdentoista kuukauden aikana.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Muutokset ehtoihin</h2>
+    <p>Saatamme päivittää näitä käyttöehtoja ajoittain. Merkittävistä muutoksista ilmoitamme päivittämällä sivun yläosassa olevan päivämäärän ja tiedottamalla sovelluksen kautta. Sovelluksen jatkuva käyttö voimaantulopäivän jälkeen merkitsee päivitettyjen ehtojen hyväksymistä.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> Sovellettava laki</h2>
+    <p>Näihin ehtoihin sovelletaan Suomen lakia. Näihin ehtoihin liittyvät riidat ratkaistaan suomalaisissa tuomioistuimissa, sanotun kuitenkaan rajoittamatta sinulle Euroopan unionin lainsäädännön nojalla kuuluvia kuluttajansuojaoikeuksia.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span> Yhteystiedot</h2>
+    <div class="highlight">
+      <strong><!-- NIMI / YRITYKSEN NIMI --></strong><br />
+      Sähköposti: <a href="mailto:milla.karoliina.leinonen@gmail.com">milla.karoliina.leinonen@gmail.com</a>
+    </div>
+    <p>Katso myös <a href="privacy-fi.html">tietosuojaselosteemme</a> tietojesi käsittelystä.</p>
+  </section>
+
+  <footer>
+    <p>Happy Cat &nbsp;·&nbsp; <a href="terms-en.html">In English</a> &nbsp;·&nbsp; <a href="privacy-fi.html">Tietosuojaseloste</a> &nbsp;·&nbsp; Bundle ID: com.happycat.app</p>
+  </footer>
+
+</div>
+</body>
+</html>
